@@ -1,0 +1,22 @@
+.panel {
+    padding-left:0;
+    padding-right:0;
+}
+.slide-right{
+    position:relative;
+    animation:slideright 0.5s
+}
+@keyframes slideright{
+    from{
+      right:-600px;
+      opacity:1
+    } 
+    to{
+      right:0;
+      opacity:1
+    }
+}
+footer {
+    display: block;
+    background-color: lightgrey;
+}
